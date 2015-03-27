@@ -1,0 +1,17 @@
+name:           Stats-helper
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         sergey
+
+library
+  hs-source-dirs:  src
+  build-depends:   base >= 4
+  ghc-options:     -Wall
+
+executable Stats-helper
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   base >= 4
+  ghc-options:     -Wall
+
